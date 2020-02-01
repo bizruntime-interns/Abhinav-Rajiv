@@ -1,0 +1,7 @@
+C:\Users\abhinav\Desktop\IP\c#\29-01-2020\prime_number\prime_number\bin\Debug\prime_number.exe.config
+C:\Users\abhinav\Desktop\IP\c#\29-01-2020\prime_number\prime_number\bin\Debug\prime_number.exe
+C:\Users\abhinav\Desktop\IP\c#\29-01-2020\prime_number\prime_number\bin\Debug\prime_number.pdb
+C:\Users\abhinav\Desktop\IP\c#\29-01-2020\prime_number\prime_number\obj\Debug\prime_number.csprojAssemblyReference.cache
+C:\Users\abhinav\Desktop\IP\c#\29-01-2020\prime_number\prime_number\obj\Debug\prime_number.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\IP\c#\29-01-2020\prime_number\prime_number\obj\Debug\prime_number.exe
+C:\Users\abhinav\Desktop\IP\c#\29-01-2020\prime_number\prime_number\obj\Debug\prime_number.pdb

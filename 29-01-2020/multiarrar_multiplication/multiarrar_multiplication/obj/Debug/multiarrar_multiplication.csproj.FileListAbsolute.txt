@@ -1,0 +1,6 @@
+C:\Users\abhinav\Desktop\IP\c#\29-01-2020\multiarrar_multiplication\multiarrar_multiplication\bin\Debug\multiarrar_multiplication.exe.config
+C:\Users\abhinav\Desktop\IP\c#\29-01-2020\multiarrar_multiplication\multiarrar_multiplication\bin\Debug\multiarrar_multiplication.exe
+C:\Users\abhinav\Desktop\IP\c#\29-01-2020\multiarrar_multiplication\multiarrar_multiplication\bin\Debug\multiarrar_multiplication.pdb
+C:\Users\abhinav\Desktop\IP\c#\29-01-2020\multiarrar_multiplication\multiarrar_multiplication\obj\Debug\multiarrar_multiplication.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\IP\c#\29-01-2020\multiarrar_multiplication\multiarrar_multiplication\obj\Debug\multiarrar_multiplication.exe
+C:\Users\abhinav\Desktop\IP\c#\29-01-2020\multiarrar_multiplication\multiarrar_multiplication\obj\Debug\multiarrar_multiplication.pdb

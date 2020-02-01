@@ -1,0 +1,7 @@
+C:\Users\abhinav\Desktop\IP\c#\29-01-2020\switchex\switchex\bin\Debug\switchex.exe.config
+C:\Users\abhinav\Desktop\IP\c#\29-01-2020\switchex\switchex\bin\Debug\switchex.exe
+C:\Users\abhinav\Desktop\IP\c#\29-01-2020\switchex\switchex\bin\Debug\switchex.pdb
+C:\Users\abhinav\Desktop\IP\c#\29-01-2020\switchex\switchex\obj\Debug\switchex.csprojAssemblyReference.cache
+C:\Users\abhinav\Desktop\IP\c#\29-01-2020\switchex\switchex\obj\Debug\switchex.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\IP\c#\29-01-2020\switchex\switchex\obj\Debug\switchex.exe
+C:\Users\abhinav\Desktop\IP\c#\29-01-2020\switchex\switchex\obj\Debug\switchex.pdb
