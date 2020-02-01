@@ -1,0 +1,7 @@
+C:\Users\abhinav\Desktop\IP\1-02-2020\c#(mutithreading)\two_threads\two_threads\bin\Debug\two_threads.exe.config
+C:\Users\abhinav\Desktop\IP\1-02-2020\c#(mutithreading)\two_threads\two_threads\bin\Debug\two_threads.exe
+C:\Users\abhinav\Desktop\IP\1-02-2020\c#(mutithreading)\two_threads\two_threads\bin\Debug\two_threads.pdb
+C:\Users\abhinav\Desktop\IP\1-02-2020\c#(mutithreading)\two_threads\two_threads\obj\Debug\two_threads.csprojAssemblyReference.cache
+C:\Users\abhinav\Desktop\IP\1-02-2020\c#(mutithreading)\two_threads\two_threads\obj\Debug\two_threads.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\IP\1-02-2020\c#(mutithreading)\two_threads\two_threads\obj\Debug\two_threads.exe
+C:\Users\abhinav\Desktop\IP\1-02-2020\c#(mutithreading)\two_threads\two_threads\obj\Debug\two_threads.pdb

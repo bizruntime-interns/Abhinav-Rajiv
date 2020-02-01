@@ -1,0 +1,7 @@
+C:\Users\abhinav\Desktop\IP\1-02-2020\c#(mutithreading)\mutithreadingEx1\mutithreadingEx1\bin\Debug\mutithreadingEx1.exe.config
+C:\Users\abhinav\Desktop\IP\1-02-2020\c#(mutithreading)\mutithreadingEx1\mutithreadingEx1\bin\Debug\mutithreadingEx1.exe
+C:\Users\abhinav\Desktop\IP\1-02-2020\c#(mutithreading)\mutithreadingEx1\mutithreadingEx1\bin\Debug\mutithreadingEx1.pdb
+C:\Users\abhinav\Desktop\IP\1-02-2020\c#(mutithreading)\mutithreadingEx1\mutithreadingEx1\obj\Debug\mutithreadingEx1.csprojAssemblyReference.cache
+C:\Users\abhinav\Desktop\IP\1-02-2020\c#(mutithreading)\mutithreadingEx1\mutithreadingEx1\obj\Debug\mutithreadingEx1.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\IP\1-02-2020\c#(mutithreading)\mutithreadingEx1\mutithreadingEx1\obj\Debug\mutithreadingEx1.exe
+C:\Users\abhinav\Desktop\IP\1-02-2020\c#(mutithreading)\mutithreadingEx1\mutithreadingEx1\obj\Debug\mutithreadingEx1.pdb
