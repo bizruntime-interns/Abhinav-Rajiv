@@ -1,7 +1,0 @@
-C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\finally\finally\bin\Debug\@finally.exe.config
-C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\finally\finally\bin\Debug\@finally.exe
-C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\finally\finally\bin\Debug\@finally.pdb
-C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\finally\finally\obj\Debug\finally.csprojAssemblyReference.cache
-C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\finally\finally\obj\Debug\finally.csproj.CoreCompileInputs.cache
-C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\finally\finally\obj\Debug\@finally.exe
-C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\finally\finally\obj\Debug\@finally.pdb

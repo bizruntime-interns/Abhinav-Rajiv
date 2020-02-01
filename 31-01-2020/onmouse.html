@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <style>
+        div{background-color:darkgray;
+        padding: 40px;
+        margin-top: 10px;
+        height: 100px;
+        margin-left: 10px;
+        width: 100px;
+        float: left;
+        
+
+        }
+        .button{
+            margin-top: 200px;
+            margin-left: 30px;
+        }
+        </style>
+        <title>
+            onmouse
+        </title>
+    </head>
+    <body onresize="onresizefun()">
+        <div id="demo1" onmousemove="onmouseupfun()"  >
+            <p>
+                on mouse move<p  id="text1">
+
+            </p>
+        </p>
+        </div>
+        <div id="demo2" onmouseenter="onmouseenterfun()">
+            <p>on mouse enter</p>
+            <p  id="text2">
+
+            </p>
+        </div>
+
+        <div id="div3" onmouseout="onmouseoverfun()">
+                <p>
+                    on mouse out
+                </p>
+                <p  id="text3">
+
+                </p>
+        </div>
+        <br>
+
+        <button class="button" type="button" id="butt" onclick="screendet()">
+            click here 
+        </button>
+        <p  id="deta">
+
+        </p>
+        <script>
+            var x=0;
+            var y=0;
+            var z=0;
+      function onmouseupfun()
+      {
+          x=x+1;
+          document.getElementById("text1").innerHTML=x;
+
+      }
+      function onresizefun()
+      {
+          alert("dont resize it will effect the quaity");
+      }
+      function onmouseenterfun()
+      {
+            if(y==0)
+            {
+                document.getElementById("demo2").style.backgroundColor="rgb(10,100,10)";
+                y=1;
+            }else{
+                document.getElementById("demo2").style.backgroundColor="rgb(10,10,200)";
+                y=0;
+            }
+          
+
+      }
+      function onmouseoverfun()
+      {
+          z=z+1;
+          if(z<40){
+        document.getElementById("div3").style.padding=z+"px";
+        document.getElementById("text3").innerHTML=z;
+          }
+      }
+      function screendet()
+      {
+         var details= document.getElementById("deta");
+         var node=document.createTextNode("\nscreen width is:"+screen.availHeight+"");
+         details.appendChild(node);
+         var node2=document.createTextNode( "\nscreen height is :"+screen.availHeight+"\n");
+         details.appendChild(node2);
+         var node3=document.createTextNode(" \nscreen depth:"+screen.colorDepth+"\n");
+         details.appendChild(node3);
+
+          
+          
+      }
+      
+        </script>
+    </body>
+</html>

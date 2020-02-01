@@ -1,7 +1,0 @@
-C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\tryCatch\tryCatch\obj\Debug\tryCatch.csprojAssemblyReference.cache
-C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\tryCatch\tryCatch\obj\Debug\tryCatch.csproj.CoreCompileInputs.cache
-C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\tryCatch\tryCatch\bin\Debug\tryCatch.exe.config
-C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\tryCatch\tryCatch\bin\Debug\tryCatch.exe
-C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\tryCatch\tryCatch\bin\Debug\tryCatch.pdb
-C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\tryCatch\tryCatch\obj\Debug\tryCatch.exe
-C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\tryCatch\tryCatch\obj\Debug\tryCatch.pdb
