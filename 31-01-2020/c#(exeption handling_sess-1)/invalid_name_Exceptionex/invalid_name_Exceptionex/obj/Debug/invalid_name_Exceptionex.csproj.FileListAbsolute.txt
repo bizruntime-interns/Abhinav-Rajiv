@@ -1,0 +1,7 @@
+C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\invalid_name_Exceptionex\invalid_name_Exceptionex\bin\Debug\invalid_name_Exceptionex.exe.config
+C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\invalid_name_Exceptionex\invalid_name_Exceptionex\bin\Debug\invalid_name_Exceptionex.exe
+C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\invalid_name_Exceptionex\invalid_name_Exceptionex\bin\Debug\invalid_name_Exceptionex.pdb
+C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\invalid_name_Exceptionex\invalid_name_Exceptionex\obj\Debug\invalid_name_Exceptionex.csprojAssemblyReference.cache
+C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\invalid_name_Exceptionex\invalid_name_Exceptionex\obj\Debug\invalid_name_Exceptionex.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\invalid_name_Exceptionex\invalid_name_Exceptionex\obj\Debug\invalid_name_Exceptionex.exe
+C:\Users\abhinav\Desktop\IP\31-01-2020\c#(exeption handling_sess-1)\invalid_name_Exceptionex\invalid_name_Exceptionex\obj\Debug\invalid_name_Exceptionex.pdb
