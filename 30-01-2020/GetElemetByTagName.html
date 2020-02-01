@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>
+            getElementsByTagNameDemo
+        </title>
+    </head>
+    <body>
+        <center>
+        <p id="text" class="class1">
+           This is the P tag.
+        </p>
+        
+        <p id="tex">
+
+        </p>
+        <button id="butt1" value="click">click
+       
+        </button>
+    </center>
+        <script>
+            document.getElementById("butt1").onclick=function()
+            {
+                var x=document.getElementsByTagName("p");
+                document.getElementById("tex").innerHTML="The text in the p tag is :"+x[0].innerHTML;
+            }
+      
+        </script>
+    </body>
+</html>

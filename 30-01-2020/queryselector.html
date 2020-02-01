@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            querySelectorDemo
+        </title>
+    </head>
+    <body>
+
+        <center>
+            <p class="intro">This is the example of querySelectorAll .</p>
+            <p class="intro">This is the second p tag</p>
+            <button id="butt">click</button>
+                <p id="demo"></p>
+        </center>
+
+<script>
+    document.getElementById("butt").onclick=function()
+    {
+        var x = document.querySelectorAll("p.intro");
+        document.getElementById("demo").innerHTML = 
+        'The first paragraph with class="intro":   ' + x[0].innerHTML+"<br> the second paragraph is : "+x[1].innerHTML;
+    }
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+            GetElementByIdDemo
+        </title>
+    </head>
+    <body>
+        <center>
+        <input type="text" placeholder="Enter something" id="text"/>
+           
+        
+        <p id="tex">
+
+        </p>
+        <button id="butt1">click</button>
+    </center>
+        <script>
+       document.getElementById("butt1").onclick=function()
+            {
+                var x=document.getElementById("text").value;
+                document.getElementById("tex").innerHTML="The text in the input tag is got by ID :"+x;
+            }
+        </script>
+    </body>
+</html>
