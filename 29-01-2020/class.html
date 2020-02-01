@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>
+        class example
+    </title>
+   
+</head>
+<body>
+
+
+    <script>
+        class person{
+            constructor(name,age)
+            {
+                this.name=name;
+                this.age=age;
+
+
+            }
+            getdetails()
+            {
+                return(`name is ${this.name} age is ${this.age}` );
+            }
+           
+
+        }
+            let person1=new person("abhinav",20);
+            let person2=new person("amal",13);
+            console.log(person1.name);
+            console.log(person1.age);
+            console.log(person2.getdetails());
+            alert("name is "+person1.name);
+            alert("age is "+person1.age);
+            alert(person2.getdetails());
+
+        
+        </script>
+</body>
+
+</html>

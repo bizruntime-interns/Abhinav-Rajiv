@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>
+            encapsulation
+        </title>
+    </head>
+    <body>
+        <script>
+            class person{
+                constructor(name,age)
+                {
+                    this.name=name;
+                    this.age=age;
+                    
+
+                }
+                addrss(add)
+                    {
+                        this.add=add;
+
+                    }
+                    getcont()
+                    {
+                        alert(`name is ${this.name} age is ${this.age} address is ${this.add}`);
+                        console.log(`name is ${this.name} age is ${this.age} address is ${this.add}`);
+                    }
+            }
+            let person1=new person("abhinav",20);
+            let person2=new person("amal",13);
+            person1.addrss("kerala");
+            person2.addrss("kerala");
+            person1.getcont();
+            person2.getcont();
+            </script>
+    </body>
+</html>

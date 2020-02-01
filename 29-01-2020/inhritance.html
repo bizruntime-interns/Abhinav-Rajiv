@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>
+            inheritance
+        </title>
+    </head>
+    <body>
+        <script>
+            class personparent{
+                constructor()
+                {
+                   
+                    this.location="kerala";
+                }
+            }
+            class person extends personparent{
+                constructor(name,age)
+                {
+                    super();
+                    this.age=age;
+                }
+                printt()
+                {
+                    console.log( age is ${this.age} `);
+                }
+
+            }
+            let pers=new person("abhinav",20);
+            pers.printt();
+            console.log(pers.location);
+            </script>
+    </body>
+</html>

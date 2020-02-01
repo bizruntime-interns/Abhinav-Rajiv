@@ -1,0 +1,33 @@
+<htm>
+    <head>
+        <title>
+            abstraction
+        </title>
+    </head>
+    <body>
+        <script>
+            function person(nname,aage){
+                
+                
+                    let name=nname;
+                    let age=aage;
+                    let noacess=function()
+                {
+                   return(`name is ${name} age is ${age}`);
+                 
+                }
+                this.acess=function()
+                {
+                    return(`name is ${name} age is ${age}`);
+                }
+
+               
+            }
+            let person1=new person("abhi",18);
+           console.log(person1.noacess);
+           console.log( person1.acess());
+           console.log(person1.name);
+
+            </script>
+    </body>
+</htm>

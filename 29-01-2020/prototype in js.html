@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>
+            property
+        </title>
+    </head>
+    <body>
+        <script>
+            function person (fname,lname,aage,ddesi)
+            {
+                
+                this.last=lname;
+                this.first=fname;
+                this.age=aage;
+                this.desi=ddesi;
+            }
+            person.prototype.location="kerala";
+            let person1=new person("abhinav","rajiv",20,"student");
+            console.log(person1.last);
+            console.log(person1.location);
+            console.log(person1.desi);
+            document.writeln(person1.last);
+            document.writeln(person1.location);
+            document.writeln(person1.location);
+            
+            
+            </script>
+    </body>
+</html>
