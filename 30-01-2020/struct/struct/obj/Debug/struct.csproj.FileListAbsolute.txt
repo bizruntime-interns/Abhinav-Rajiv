@@ -1,0 +1,7 @@
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\struct\struct\bin\Debug\@struct.exe.config
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\struct\struct\bin\Debug\@struct.exe
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\struct\struct\bin\Debug\@struct.pdb
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\struct\struct\obj\Debug\struct.csprojAssemblyReference.cache
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\struct\struct\obj\Debug\struct.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\struct\struct\obj\Debug\@struct.exe
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\struct\struct\obj\Debug\@struct.pdb

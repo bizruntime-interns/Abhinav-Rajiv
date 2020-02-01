@@ -1,0 +1,7 @@
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\params\params\bin\Debug\@params.exe.config
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\params\params\bin\Debug\@params.exe
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\params\params\bin\Debug\@params.pdb
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\params\params\obj\Debug\params.csprojAssemblyReference.cache
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\params\params\obj\Debug\params.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\params\params\obj\Debug\@params.exe
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\params\params\obj\Debug\@params.pdb

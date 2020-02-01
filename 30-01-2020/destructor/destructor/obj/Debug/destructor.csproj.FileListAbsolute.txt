@@ -1,0 +1,7 @@
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\destructor\destructor\bin\Debug\destructor.exe.config
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\destructor\destructor\bin\Debug\destructor.exe
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\destructor\destructor\bin\Debug\destructor.pdb
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\destructor\destructor\obj\Debug\destructor.csprojAssemblyReference.cache
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\destructor\destructor\obj\Debug\destructor.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\destructor\destructor\obj\Debug\destructor.exe
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\destructor\destructor\obj\Debug\destructor.pdb

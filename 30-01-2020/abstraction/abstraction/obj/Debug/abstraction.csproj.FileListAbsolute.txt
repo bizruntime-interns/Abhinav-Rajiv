@@ -1,0 +1,7 @@
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\abstraction\abstraction\bin\Debug\abstraction.exe.config
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\abstraction\abstraction\bin\Debug\abstraction.exe
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\abstraction\abstraction\bin\Debug\abstraction.pdb
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\abstraction\abstraction\obj\Debug\abstraction.csprojAssemblyReference.cache
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\abstraction\abstraction\obj\Debug\abstraction.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\abstraction\abstraction\obj\Debug\abstraction.exe
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\abstraction\abstraction\obj\Debug\abstraction.pdb

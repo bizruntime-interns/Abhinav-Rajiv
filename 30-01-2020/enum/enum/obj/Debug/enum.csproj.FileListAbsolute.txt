@@ -1,0 +1,7 @@
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\enum\enum\bin\Debug\@enum.exe.config
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\enum\enum\bin\Debug\@enum.exe
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\enum\enum\bin\Debug\@enum.pdb
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\enum\enum\obj\Debug\enum.csprojAssemblyReference.cache
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\enum\enum\obj\Debug\enum.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\enum\enum\obj\Debug\@enum.exe
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\enum\enum\obj\Debug\@enum.pdb

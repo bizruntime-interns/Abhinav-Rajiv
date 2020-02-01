@@ -1,0 +1,6 @@
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\namespace\namespace\bin\Debug\@namespace.exe.config
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\namespace\namespace\bin\Debug\@namespace.exe
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\namespace\namespace\bin\Debug\@namespace.pdb
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\namespace\namespace\obj\Debug\namespace.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\namespace\namespace\obj\Debug\@namespace.exe
+C:\Users\abhinav\Desktop\IP\30-01-2020\c#(session1)\namespace\namespace\obj\Debug\@namespace.pdb
