@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+<book>
+<author>
+shakespeare
+</author>
+<name>
+macbeth
+</name>
+<rupees>
+10
+</rupees>
+</book>
+<book>
+<author>
+abdul kalam 
+</author>
+<name>
+wings of fire
+</name>
+<rupees>
+100
+</rupees>
+</book>
+<book>
+<author>
+l k adwani
+</author>
+<name>
+my country my life
+</name>
+<price>
+200
+</price>
+</book>
+
+</bookstore>
+

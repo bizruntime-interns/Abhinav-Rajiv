@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>
+            using function
+        </title>
+        <script>
+        function load()
+        {
+            var xmlht=new XMLHttpRequest();
+            xmlht.onreadystatechange=function()
+            {
+                if(this.readyState==4 && this.status==200)
+                {
+                  myfunction(this);
+                  console.log("status is redy");
+                }
+            };
+            xmlht.open("GET","books.xml",true);
+            xmlht.send();
+        }
+        var book;
+        function myfunction(xml)
+        {
+            console.log("in myfunction");
+            var xmlre=xml.responseXML;
+            var table="<table border=5><tr><th>name</th><th>author</th></tr>";
+             book=xmlre.getElementsByTagName("book");
+            console.log("going to for");
+            for(var i=0;i<book.length;i++)
+            {
+                table+="<tr onclick='funcc("+i+")'><td>"+book[i].getElementsByTagName("author")[0].childNodes[0].nodeValue+"</td>"+"<td>"+book[i].getElementsByTagName("name")[0].childNodes[0].nodeValue+"</td></tr>";
+
+            }
+            document.getElementById("demo").innerHTML=table;
+            console.log("end");
+        }
+         function funcc(i){
+            document.getElementById("rs").innerHTML=book[i].getElementsByTagName("rupees").childNodes[0].nodeValue;
+         }
+
+        </script>
+
+    </head>
+    <body>
+        <center>
+        <p >Rupees:
+         <span id="rs"></span>
+        </p>
+        <button id="demo" onclick="load()">click
+
+        </button>
+        <p id="demo">
+
+        </p>
+    </center>
+    </body>
+</html>

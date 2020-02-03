@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>
+            ajax example
+        </title>
+        <script>
+        function load()
+        {
+            var xmlht=new XMLHttpRequest();
+            xmlht.onreadystatechange=function(){
+                if(this.readyState==4 && this.status==200)
+                {
+                    document.getElementById("demo").innerHTML=this.responseText;
+                    
+                }
+            };
+            xmlht.open("GET","hello.txt",true);
+            xmlht.send();
+
+        }
+        </script>
+    </head>
+    <body>
+        <center>
+        <p id="demo">
+            
+        </p>
+        <button id="butt" onclick="load()">click</button>
+    </center>
+    </body>
+</html>
