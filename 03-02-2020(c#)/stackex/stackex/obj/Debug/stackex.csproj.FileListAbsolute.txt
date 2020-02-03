@@ -1,0 +1,6 @@
+C:\Users\abhinav\Desktop\IP\03-02-2020\stackex\stackex\bin\Debug\stackex.exe.config
+C:\Users\abhinav\Desktop\IP\03-02-2020\stackex\stackex\bin\Debug\stackex.exe
+C:\Users\abhinav\Desktop\IP\03-02-2020\stackex\stackex\bin\Debug\stackex.pdb
+C:\Users\abhinav\Desktop\IP\03-02-2020\stackex\stackex\obj\Debug\stackex.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\IP\03-02-2020\stackex\stackex\obj\Debug\stackex.exe
+C:\Users\abhinav\Desktop\IP\03-02-2020\stackex\stackex\obj\Debug\stackex.pdb

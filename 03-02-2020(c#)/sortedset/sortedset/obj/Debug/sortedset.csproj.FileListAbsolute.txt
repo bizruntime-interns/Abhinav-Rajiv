@@ -1,0 +1,6 @@
+C:\Users\abhinav\Desktop\IP\03-02-2020\sortedset\sortedset\bin\Debug\sortedset.exe.config
+C:\Users\abhinav\Desktop\IP\03-02-2020\sortedset\sortedset\bin\Debug\sortedset.exe
+C:\Users\abhinav\Desktop\IP\03-02-2020\sortedset\sortedset\bin\Debug\sortedset.pdb
+C:\Users\abhinav\Desktop\IP\03-02-2020\sortedset\sortedset\obj\Debug\sortedset.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\IP\03-02-2020\sortedset\sortedset\obj\Debug\sortedset.exe
+C:\Users\abhinav\Desktop\IP\03-02-2020\sortedset\sortedset\obj\Debug\sortedset.pdb

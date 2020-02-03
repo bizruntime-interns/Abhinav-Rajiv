@@ -1,0 +1,6 @@
+C:\Users\abhinav\Desktop\IP\03-02-2020\scorequeryLinq\scorequeryLinq\bin\Debug\scorequeryLinq.exe.config
+C:\Users\abhinav\Desktop\IP\03-02-2020\scorequeryLinq\scorequeryLinq\bin\Debug\scorequeryLinq.exe
+C:\Users\abhinav\Desktop\IP\03-02-2020\scorequeryLinq\scorequeryLinq\bin\Debug\scorequeryLinq.pdb
+C:\Users\abhinav\Desktop\IP\03-02-2020\scorequeryLinq\scorequeryLinq\obj\Debug\scorequeryLinq.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\IP\03-02-2020\scorequeryLinq\scorequeryLinq\obj\Debug\scorequeryLinq.exe
+C:\Users\abhinav\Desktop\IP\03-02-2020\scorequeryLinq\scorequeryLinq\obj\Debug\scorequeryLinq.pdb

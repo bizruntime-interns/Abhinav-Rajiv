@@ -1,0 +1,7 @@
+C:\Users\abhinav\Desktop\IP\03-02-2020\linqex1\linqex1\bin\Debug\linqex1.exe.config
+C:\Users\abhinav\Desktop\IP\03-02-2020\linqex1\linqex1\bin\Debug\linqex1.exe
+C:\Users\abhinav\Desktop\IP\03-02-2020\linqex1\linqex1\bin\Debug\linqex1.pdb
+C:\Users\abhinav\Desktop\IP\03-02-2020\linqex1\linqex1\obj\Debug\linqex1.csprojAssemblyReference.cache
+C:\Users\abhinav\Desktop\IP\03-02-2020\linqex1\linqex1\obj\Debug\linqex1.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\IP\03-02-2020\linqex1\linqex1\obj\Debug\linqex1.exe
+C:\Users\abhinav\Desktop\IP\03-02-2020\linqex1\linqex1\obj\Debug\linqex1.pdb
