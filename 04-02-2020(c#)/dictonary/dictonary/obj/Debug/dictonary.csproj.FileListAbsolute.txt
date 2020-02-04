@@ -1,0 +1,10 @@
+C:\Users\abhinav\Desktop\IP\04-02-2020\04-02-2020(c#)\dictonary\dictonary\bin\Debug\dictonary.exe.config
+C:\Users\abhinav\Desktop\IP\04-02-2020\04-02-2020(c#)\dictonary\dictonary\bin\Debug\dictonary.exe
+C:\Users\abhinav\Desktop\IP\04-02-2020\04-02-2020(c#)\dictonary\dictonary\bin\Debug\dictonary.pdb
+C:\Users\abhinav\Desktop\IP\04-02-2020\04-02-2020(c#)\dictonary\dictonary\bin\Debug\log4net.dll
+C:\Users\abhinav\Desktop\IP\04-02-2020\04-02-2020(c#)\dictonary\dictonary\bin\Debug\log4net.xml
+C:\Users\abhinav\Desktop\IP\04-02-2020\04-02-2020(c#)\dictonary\dictonary\obj\Debug\dictonary.csprojAssemblyReference.cache
+C:\Users\abhinav\Desktop\IP\04-02-2020\04-02-2020(c#)\dictonary\dictonary\obj\Debug\dictonary.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\IP\04-02-2020\04-02-2020(c#)\dictonary\dictonary\obj\Debug\dictonary.csproj.CopyComplete
+C:\Users\abhinav\Desktop\IP\04-02-2020\04-02-2020(c#)\dictonary\dictonary\obj\Debug\dictonary.exe
+C:\Users\abhinav\Desktop\IP\04-02-2020\04-02-2020(c#)\dictonary\dictonary\obj\Debug\dictonary.pdb
