@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>
+            ajax book
+        </title>
+    </head>
+<body>
+
+<div id='showbook'></div><br>
+<input type="button" onclick="previous()" value="previous">
+<input type="button" onclick="next()" value="next">
+
+<script>
+var i = 0;
+var x;
+displaybook(i);
+function displaybook(i) {
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            myFunction(this, i);
+        }
+    };
+    xmlhttp.open("GET", "books.xml", true);
+    xmlhttp.send();
+}
+function myFunction(xml, i) {
+    var xmlDoc = xml.responseXML; 
+    x = xmlDoc.getElementsByTagName("book");
+    document.getElementById("showbook").innerHTML ="author: " +
+    x[i].getElementsByTagName("author")[0].childNodes[0].nodeValue +"<br>Title: " +
+    x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +"<br>rupees: " + 
+    x[i].getElementsByTagName("rupees")[0].childNodes[0].nodeValue;
+}
+function next() {
+if (i < x.length-1) {
+  i++;
+  displaybook(i);
+  }
+}
+function previous() {
+if (i > 0) {
+  i--;
+  displaybook(i);
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>
+            form fill
+        </title>
+        <script>
+        function load(){
+            console.log("in function");
+            var xm=new XMLHttpRequest();
+             var vv=document.getElementById("country");
+           var x=vv.options[vv.selectedIndex].value;
+           console.log(x);
+           var select="";
+           xm.onreadystatechange=function(){
+            if(this.readyState==4 && this.status==200)
+            {
+                console.log("ready");
+               /* var pars=new DOMParser();
+                pars.parseFromString(countrydata,"text/xml");
+
+                */
+                var xmll=this.responseXML;
+                console.log(xmll.getElementsByTagName("india")[0]);
+                var xx=xmll.getElementsByTagName("india");
+
+                console.log("ready");
+               
+                
+                 for(var i=0;i<2;i++)
+                 {
+                select+="<option>"+xx[0].getElementsByTagName("state")[i].childNodes[0].nodeValue+"</option>"
+                 }
+                 select+="</select>"
+                 
+
+            }
+            else
+            {
+                console.log("not ready");
+            }
+            console.log(select);
+            document.getElementById("demo").innerHTML=select
+            
+           };
+           xm.open("GET","countrydata.xml",true);
+           xm.send();
+          
+
+        }
+        </script>
+    </head>
+    <body>
+        <center>
+            <form>
+                <input type="text" id="username"/>
+                <br>
+                <input type="password" id="password"/>
+                <br>
+                <select id="country" name="country"  >
+                    <option  id="usa" value="usa">USA</option>
+                    <option  id="ind" value="india">india</option>
+                    <option  id="ame" value="america">america</option>
+                </select>
+                <select id="demo" onmouseover="load()">
+
+                </select>
+                <br>
+
+                <button id="butt" onclick="">click</button>
+            </form>
+        </center>
+    </body>
+</html>
