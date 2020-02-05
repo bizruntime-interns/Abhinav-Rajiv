@@ -1,0 +1,28 @@
+<html>
+ <head>
+  <title>GetAllResponseHeaders</title>
+ </head>
+ <body>
+  <h4>get all response header </h4>
+  <p id="demo"></p>
+  <input type="button"  value="get Data" onclick="loaddoc()">
+  
+  <script>
+  function loaddoc()
+  {
+	xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function()
+	{
+		if(this.readystate==4 || this.status==200)
+		{
+			document.getElementById("demo").innerHTML = this.getAllResponseHeaders();
+		}
+              
+		};
+	
+	xhttp.open("GET","books.xml",true);
+	xhttp.send();
+  }
+  </script>
+ </body>
+</html>

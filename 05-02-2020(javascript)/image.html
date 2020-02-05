@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>
+            image display
+        </title>
+        <script>
+        function loood()
+        {
+            var xmll=new XMLHttpRequest;
+            xmll.onreadystatechange=function()
+            {
+                if(this.readyState==4 && this.status==200)
+                {
+                    var xml=xmll.responseXML;
+                    var imgxml=xml.getElementsByTagName("photo");
+                    var img="<img src='"+imgxml[0].getElementsByTagName("img")[0].childNodes[0].nodeValue+"'>";
+                }
+                document.getElementById("demo").innerHTML=img;
+            };
+            xmll.open("GET","imagexml.xml",true);
+            xmll.send();
+        }
+        </script>
+    </head>
+    <body>
+<center>
+    <div id="demo"></div>
+
+    <input type="button" value="load img" onclick="loood()"/>
+</center>
+
+    </body>
+    </html>
