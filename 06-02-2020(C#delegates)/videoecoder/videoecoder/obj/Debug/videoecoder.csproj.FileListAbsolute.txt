@@ -1,0 +1,7 @@
+C:\Users\abhinav\Desktop\IP\06-02-2020\06-02-2020(C#delegates)\videoecoder\videoecoder\bin\Debug\videoecoder.exe.config
+C:\Users\abhinav\Desktop\IP\06-02-2020\06-02-2020(C#delegates)\videoecoder\videoecoder\bin\Debug\videoecoder.exe
+C:\Users\abhinav\Desktop\IP\06-02-2020\06-02-2020(C#delegates)\videoecoder\videoecoder\bin\Debug\videoecoder.pdb
+C:\Users\abhinav\Desktop\IP\06-02-2020\06-02-2020(C#delegates)\videoecoder\videoecoder\obj\Debug\videoecoder.csprojAssemblyReference.cache
+C:\Users\abhinav\Desktop\IP\06-02-2020\06-02-2020(C#delegates)\videoecoder\videoecoder\obj\Debug\videoecoder.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\IP\06-02-2020\06-02-2020(C#delegates)\videoecoder\videoecoder\obj\Debug\videoecoder.exe
+C:\Users\abhinav\Desktop\IP\06-02-2020\06-02-2020(C#delegates)\videoecoder\videoecoder\obj\Debug\videoecoder.pdb

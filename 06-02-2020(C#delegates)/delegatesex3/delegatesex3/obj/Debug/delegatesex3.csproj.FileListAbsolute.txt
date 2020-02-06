@@ -1,0 +1,10 @@
+C:\Users\abhinav\Desktop\IP\06-02-2020\06-02-2020(C#delegates)\delegatesex3\delegatesex3\bin\Debug\delegatesex3.exe.config
+C:\Users\abhinav\Desktop\IP\06-02-2020\06-02-2020(C#delegates)\delegatesex3\delegatesex3\bin\Debug\delegatesex3.exe
+C:\Users\abhinav\Desktop\IP\06-02-2020\06-02-2020(C#delegates)\delegatesex3\delegatesex3\bin\Debug\delegatesex3.pdb
+C:\Users\abhinav\Desktop\IP\06-02-2020\06-02-2020(C#delegates)\delegatesex3\delegatesex3\bin\Debug\log4net.dll
+C:\Users\abhinav\Desktop\IP\06-02-2020\06-02-2020(C#delegates)\delegatesex3\delegatesex3\bin\Debug\log4net.xml
+C:\Users\abhinav\Desktop\IP\06-02-2020\06-02-2020(C#delegates)\delegatesex3\delegatesex3\obj\Debug\delegatesex3.csprojAssemblyReference.cache
+C:\Users\abhinav\Desktop\IP\06-02-2020\06-02-2020(C#delegates)\delegatesex3\delegatesex3\obj\Debug\delegatesex3.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\IP\06-02-2020\06-02-2020(C#delegates)\delegatesex3\delegatesex3\obj\Debug\delegatesex3.csproj.CopyComplete
+C:\Users\abhinav\Desktop\IP\06-02-2020\06-02-2020(C#delegates)\delegatesex3\delegatesex3\obj\Debug\delegatesex3.exe
+C:\Users\abhinav\Desktop\IP\06-02-2020\06-02-2020(C#delegates)\delegatesex3\delegatesex3\obj\Debug\delegatesex3.pdb
