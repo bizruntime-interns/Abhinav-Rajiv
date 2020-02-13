@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .dropcnt{
+                display: none;
+                position: absolute;
+
+            }
+            .dropcnt a{
+                display: block;
+            }
+            .drbut{
+            background-color: forestgreen;
+            }
+            
+            .dr:hover .dropcnt {
+                background-color: fuchsia;
+                display: block;
+            }
+            body{
+                background-image: linear-gradient(cyan,white);
+            }
+            .rotate{
+                background-color: blue;
+                height: 60%;
+                width: 40%;
+                margin-top: 10%;
+                
+            }
+            .dr{
+                margin-top: 0px;
+                position: relative;
+                display: inline-block;
+            }
+            .rotate:hover{
+               
+                animation-name: trans;
+                background-color: brown;
+              
+              animation-timing-function: step-start;
+              animation-iteration-count: infinite;
+              animation-duration: 2s;
+             
+            }
+            @media only screen and (max-width: 600px) {
+             body {
+                     background-color:firebrick;
+                }
+             }   
+            @keyframes trans {
+               
+                10%{background-color: darkblue;
+                    
+                    }
+                30%{
+                    background-color: darkolivegreen;
+                    transform:  rotate(10deg);
+                    
+                }
+                50%{background-color: cadetblue;
+                    transform: rotate(140deg);
+                   }
+                
+                80%{background-color: cadetblue;
+                    transform: skew(190deg);
+                    }
+                100%{background-color: cadetblue;
+                    transform:  skew(200deg);
+                    }
+            }
+            .sec{
+                background-color: darkslategrey;
+                height: 40%;
+                width: 30%;
+                margin-top: 30%;
+            }
+            .sec:hover{
+                background-color: darkslategray;
+                animation-name: anii;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+            }
+            @keyframes anii{
+                from{
+                    transform: rotate(0deg);
+                }
+                to{
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+        <title>
+            Css BootStrap Sass Example
+        </title>
+    </head>
+    <body>
+        <center>
+            <div class="dr">
+               <br>
+               <br>
+                 <button class="drbut">Drop</button>
+                 <div class="dropcnt">
+                  <a href="">link1</a>
+                  <a href="">link2</a>
+                  <a href="">link3</a>
+                </div>
+          </div>
+            <div class="rotate">
+                
+            </div>
+            <div class="sec">
+
+            </div>
+           
+        </center>
+    </body>
+</html>
