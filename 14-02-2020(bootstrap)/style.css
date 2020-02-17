@@ -1,0 +1,16 @@
+.inner{
+height: 60%;
+width: 70%;
+background-color: rgba(112, 112, 103, 0.288);
+margin-top: 10%;
+}
+h3{
+    text-align: center;
+}
+button{
+    
+    display: block;
+}
+div{
+    align-items: center;
+}
