@@ -1,0 +1,7 @@
+C:\Users\abhinav\Desktop\IP\21-02-2020\21-02-2020(xmlc#)\xmlmanu\xmlmanu\bin\Debug\xmlmanu.exe.config
+C:\Users\abhinav\Desktop\IP\21-02-2020\21-02-2020(xmlc#)\xmlmanu\xmlmanu\bin\Debug\xmlmanu.exe
+C:\Users\abhinav\Desktop\IP\21-02-2020\21-02-2020(xmlc#)\xmlmanu\xmlmanu\bin\Debug\xmlmanu.pdb
+C:\Users\abhinav\Desktop\IP\21-02-2020\21-02-2020(xmlc#)\xmlmanu\xmlmanu\obj\Debug\xmlmanu.csprojAssemblyReference.cache
+C:\Users\abhinav\Desktop\IP\21-02-2020\21-02-2020(xmlc#)\xmlmanu\xmlmanu\obj\Debug\xmlmanu.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\IP\21-02-2020\21-02-2020(xmlc#)\xmlmanu\xmlmanu\obj\Debug\xmlmanu.exe
+C:\Users\abhinav\Desktop\IP\21-02-2020\21-02-2020(xmlc#)\xmlmanu\xmlmanu\obj\Debug\xmlmanu.pdb
