@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bookstore>
+    <book category="novel">
+        <author>
+        shakespeare
+        </author>
+        <name>
+        macbeth
+        </name>
+        <rupees>
+        10
+        </rupees>
+    </book>
+    <book category="book">
+        <author>
+        abdul kalam 
+        </author>
+        <name>
+        wings of fire
+        </name>
+        <rupees>
+        100
+        </rupees>
+    </book>
+    <book category="magazine">
+        <author>
+        l k adwani
+        </author>
+        <name>
+        my country my life
+        </name>
+        <rupees>
+        200
+        </rupees>
+
+    </book>
+
+</bookstore>
