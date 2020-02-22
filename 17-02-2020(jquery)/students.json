@@ -1,0 +1,24 @@
+{
+    "students": [
+        {
+            "Name": "Abhinav",
+            "Age": 20,
+            "Location": "Kerala"
+        },
+        {
+            "Name":"Amal",
+            "Age":"13",
+            "Location":"Kerala"
+        },
+        {
+            "Name":"sujina",
+            "Age":37,
+            "Location":"Kerala"
+        },
+        {
+            "Name":"rajeevan",
+            "Age":"41",
+            "Location":"bangalore"
+        }
+    ]
+}

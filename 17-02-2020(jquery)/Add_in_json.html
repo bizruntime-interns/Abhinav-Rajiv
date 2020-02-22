@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <script>
+        var folder = "{students:[";
+        var data = "";
+        function add() {
+            var name = document.getElementById("name").value;
+            var age = document.getElementById("age").value;
+            var location = document.getElementById("location").value;
+            data += "{Name:" + name + ",Age:" + age + ",Location:" + location + "},";
+        }
+
+        function update() {
+            data = data.slice(0, -1);
+            folder += data + "]}";
+            data = "";
+            console.log(folder);
+        }
+    </script>
+    <title>
+        Add on jsons
+    </title>
+</head>
+
+<body>
+    <div>
+        <center>
+            Name :<input type="text" id="name" placeholder="name" />
+            Age :<input type="number" id="age" placeholder="Age" />
+            Location :<input type="text" id="location" placeholder="Location" />
+            <input type="submit" onclick="add()" value="Submit" />
+            <button onclick="update()">Show</button>
+            <p id="out">
+
+            </p>
+        </center>
+    </div>
+</body>
+
+</html>
