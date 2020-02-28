@@ -1,0 +1,74 @@
+﻿@model necore.model.login
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <script src="~/jquery/jquery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#butt').click(function () {
+                var a = $("idd").val();
+                var b = $("pass").val();
+
+                var student = {
+                    id: a,
+                    Password: b
+                }
+
+                $.ajax({
+
+                    type: 'POST',
+                    contentType: "application/Json; charset=UTF-8",
+                    data: "{ login :" + JSON.stringify(student) + "}",
+                    url: '/home/Search',
+
+                    success: function (data) {
+                        $('#label').html(data);
+                    }
+
+
+                });
+            });
+        });
+
+
+    </script>
+    <title>
+
+    </title>
+</head>
+<body>
+
+    <div>
+        @*<form asp-action="Search" asp-controller="home" method="post">
+            <table>
+                <tr>
+                    <td>
+                        <label asp-for="id">Id</label>
+                    </td>
+                    <td>
+                        <input asp-for="id" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label asp-for="Password">pass</label>
+                    </td>
+                    <td>
+                        <input type="password" asp-for="Password" />
+                    </td>
+                </tr>
+            </table>
+            <button type="submit" id="b">Login</button>
+
+            <label id="label"></label>
+        </form>*@
+        <form asp-action="Search" asp-controller="home" method="post">
+            <input type="text" id="idd" />
+            <input type="password" id="pass" />
+            <input type="button" id="butt" value="Login Ajax" />
+            <p>@ViewBag.ErrorMessage</p>
+        </form>
+    </div>
+</body>
+</html>
