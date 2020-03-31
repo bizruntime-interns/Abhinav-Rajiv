@@ -30,7 +30,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.store.init();
     this.stu$ = this.store.student$;
-
+    console.log(" ");
     // const interval1$ = interval(1000);
     // const interval2$ = interval1$.pipe(map(val => 10 * val));
     // const result$ = merge(interval1$, interval2$);
