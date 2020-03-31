@@ -6,6 +6,7 @@ import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { EditformComponent } from '../editform/editform.component';
 import { Observable } from 'rxjs';
 import { StudentserviceService } from '../studentservices/studentservice.service';
+import { Store } from '../common/store.service';
 
 @Component({
   selector: 'app-edit',
@@ -15,11 +16,12 @@ import { StudentserviceService } from '../studentservices/studentservice.service
 export class EditComponent implements OnInit {
   student: Student;
   stud$: Observable<Student[]>;
-  constructor(private dialog: MatDialog, private studentservice: StudentserviceService) { }
+  constructor(private dialog: MatDialog, private studentservice: StudentserviceService, private store: Store) { }
 
   ngOnInit(): void {
-    const relod$ = this.relod();
-    relod$.subscribe();
+    this.stud$ = this.store.student$;
+    // const relod$ = this.relod();
+    // relod$.subscribe();
   }
 
   edit(studen: Student) {
@@ -39,8 +41,10 @@ export class EditComponent implements OnInit {
   }
 
   relod() {
-    const stu$ = httpobserver("http://localhost:63314/api/Student");
-    return this.stud$ = stu$.pipe(map(val => val));
+    this.store.init();
+    return this.stud$ = this.store.student$;
+    // const stu$ = httpobserver("http://localhost:63314/api/Student");
+    // return this.stud$ = stu$.pipe(map(val => val));
   }
 
 }

@@ -6,6 +6,7 @@ import { map, shareReplay } from 'rxjs/operators';
 import { Student } from 'src/model/studentModel';
 import { StudentserviceService } from './studentservices/studentservice.service';
 import { httpobserver } from './common/ultil';
+import { Store } from './common/store.service';
 
 
 @Component({
@@ -24,10 +25,11 @@ export class AppComponent implements OnInit {
   };
 
   // stu;
-  constructor(private studentservice: StudentserviceService) {
+  constructor(private studentservice: StudentserviceService, private store: Store) {
   }
   ngOnInit() {
-
+    this.store.init();
+    this.stu$ = this.store.student$;
 
     // const interval1$ = interval(1000);
     // const interval2$ = interval1$.pipe(map(val => 10 * val));
@@ -36,10 +38,10 @@ export class AppComponent implements OnInit {
 
 
 
-    //this.stu$ = this.studentservice.getallStudent();
-    const http$ = httpobserver("http://localhost:63314/api/Student");
+    // this.stu$ = this.studentservice.getallStudent();
+    // const http$ = httpobserver("http://localhost:63314/api/Student");
 
-    this.stu$ = http$.pipe(map(val => val));
+    // this.stu$ = http$.pipe(map(val => val));
 
     // const student$ = http$.pipe(map(res => Object.values(res) ,shareReplay())
     // );
@@ -65,7 +67,7 @@ export class AppComponent implements OnInit {
 
 
   alert() {
-   // this.mapsub.unsubscribe();
+    // this.mapsub.unsubscribe();
     alert("submitted");
   }
 

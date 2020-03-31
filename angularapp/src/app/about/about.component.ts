@@ -5,6 +5,7 @@ import { httpobserver } from '../common/ultil';
 import { student } from 'src/dbdata';
 import { map, tap, concatMap } from 'rxjs/operators';
 import { StudentserviceService } from '../studentservices/studentservice.service';
+import { Store } from '../common/store.service';
 
 @Component({
   selector: 'app-about',
@@ -18,7 +19,7 @@ export class AboutComponent implements OnInit {
   largeamd$: Observable<Student[]>;
 
 
-  constructor(private studentservice: StudentserviceService) { }
+  constructor(private studentservice: StudentserviceService, private store: Store) { }
 
   ngOnInit(): void {
     this.load();
@@ -29,25 +30,29 @@ export class AboutComponent implements OnInit {
     //   map(ev => ev),
     // );
     // positions.subscribe(x => console.log(x));
-    //student$.subscribe(val=>console.log(val.salary) );
+    // student$.subscribe(val=>console.log(val.salary) );
   }
   emmitedvalue(stud: Student) {
     const serv1$ = this.studentservice.putstudent(stud);
-    const serv2$=serv1$.pipe(concatMap(val=>this.load())).subscribe();
-    
+    const serv2$ = serv1$.pipe(concatMap(val => this.refresh()));
+    concat(serv2$, this.load()).subscribe();
+  }
+
+  refresh() {
+    this.store.init();
+    return this.store.student$;
   }
 
   load() {
 
-    const students$ = httpobserver("http://localhost:63314/api/Student");
-    const studen$: Observable<Student[]> = students$.pipe(map(val => val));
+    const studen$: Observable<Student[]> = this.store.student$;
 
     this.lessAmound$ = studen$.pipe(map(stu => stu.filter(stud => stud.salary < 1000)));
 
     this.mediumamd$ = studen$.pipe(map(med => med.filter(medd => medd.salary > 1000 && medd.salary < 200000)));
 
     this.largeamd$ = studen$.pipe(map(large => large.filter(larg => larg.salary > 200000)));
-    return students$.pipe(map(val => val));
+    return this.store.student$;
   }
 
 }

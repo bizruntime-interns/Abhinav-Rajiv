@@ -7,6 +7,7 @@ import { map, shareReplay } from 'rxjs/operators';
 import { Student } from 'src/model/studentModel';
 import { StudentserviceService } from '../studentservices/studentservice.service';
 import { httpobserver } from '../common/ultil';
+import { Store } from '../common/store.service';
 
 @Component({
   selector: 'app-home',
@@ -23,27 +24,27 @@ export class HomeComponent implements OnInit {
 
 
   // stu;
-  constructor(private studentservice: StudentserviceService) {
+  constructor(private studentservice: StudentserviceService, private store: Store) {
   }
   ngOnInit() {
+    this.stu$ = this.store.student$;
+
+    // const interval1$ = interval(1000);
+    // const interval2$ = interval1$.pipe(map(val => 10 * val));
+    // const result$ = merge(interval1$, interval2$);
+    // this.mapsub = result$.subscribe(console.log);
 
 
-    const interval1$ = interval(1000);
-    const interval2$ = interval1$.pipe(map(val => 10 * val));
-    const result$ = merge(interval1$, interval2$);
-    this.mapsub = result$.subscribe(console.log);
 
+    // this.stu$ = this.studentservice.getallStudent();
+    // const http$ = httpobserver("http://localhost:63314/api/Student");
 
+    // this.stu$ = http$.pipe(map(val => val));
 
-    //this.stu$ = this.studentservice.getallStudent();
-    const http$ = httpobserver("http://localhost:63314/api/Student");
+    // const student$ = http$.pipe(map(res => Object.values(res), shareReplay())
+    // );
 
-    this.stu$ = http$.pipe(map(val => val));
-
-    const student$ = http$.pipe(map(res => Object.values(res), shareReplay())
-    );
-
-    student$.subscribe(val => console.log(val), noop, () => console.log("completed"));
+    // student$.subscribe(val => console.log(val), noop, () => console.log("completed"));
 
     // http$.subscribe(student => console.log("kjbdfsjks", student),
     //   noop,
@@ -76,9 +77,9 @@ export class HomeComponent implements OnInit {
 
   emmitedvalue(stud: Student) {
     console.log(stud, "emitted");
-    this.studentservice.putstudent(stud).subscribe(
-      () => console.log("student saved")
-    );
+    // this.studentservice.putstudent(stud).subscribe(
+    //   () => console.log("student saved")
+    // );
   }
 
 }
