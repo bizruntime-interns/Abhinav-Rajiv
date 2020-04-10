@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <title>
+        web socket
+    </title>
+</head>
+<script>
+    var message;
+    var socket;
+    window.onload = function () {
+        var messageout = "";
+        var form = document.getElementById("form1");
+        message = document.getElementById("texthere");
+        var output = document.getElementById("output");
+        var status = document.getElementById("status");
+        var closebutt = document.getElementById("close");
+        var open = document.getElementById("open");
+
+        console.log("object verified");
+        socket = new WebSocket('ws://localhost:8080');
+        socket.onopen = function () {
+            status.innerHTML = "connected";
+        };
+
+
+        socket.onerror = function (e) {
+            console.log("error" + e);
+        };
+        
+        socket.onmessage = function (event) {
+            var outmess = event.data;
+            console.log("the message form websocket is:" + outmess);
+
+           // messageout += '\n ' + outmess;
+            output.innerText = outmess;
+
+        };
+        socket.onclose = function (event) {
+            status.innerHTML = 'Disconnected from WebSocket.';
+
+        };
+        form.onsubmit = function (e) {
+            e.preventDefault();
+            var mess = message.value;
+            
+            socket.send(mess);
+            console.log("message send");
+
+
+        };
+        closebutt.onclick = function () {
+            socket.close();
+        };
+
+    };
+    function loadag() {
+        window.location.reload();
+    }
+    function textfun() {
+        var mess = "typing...";
+        socket.send(mess);
+    }
+
+</script>
+
+<body>
+    <center>
+        <form id="form1" method="GET" action="#">
+            <div>
+                <p id="status"><b> Connecting..... </b> </p>
+
+            </div>
+            <div style="background-color: cornflowerblue; height: 350px;width: 650px; align-content: center;">
+                <textarea id="texthere" onclick="textfun()" style="height: 200px; width:600px;margin-top: 20px;"
+                    placeholder="click or type here..."></textarea><br>
+                <textarea id="output" style="height:100px;width:600px; "
+                    placeholder="Output will print here"></textarea>
+
+            </div>
+            <div style="background-color: darkseagreen; height: 150px;width: 650px;">
+                <input
+                    style="background-color: rgb(80, 81, 150); text-shadow: darkolivegreen;color: darkred ;font-size: large; margin-top: 40px;"
+                    type="submit" id="submit" value="Submit" />
+                <input type="button" id="close" style="background-color: red; font-size: large;" value="Close" />
+                <input type="button" id="open " style="background-color:green; font-size: large;" value="Open"
+                    onclick="loadag()" />
+            </div>
+        </form>
+    </center>
+
+</body>
+
+</html>
