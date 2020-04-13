@@ -1,0 +1,12 @@
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\productActorApp\productActorService.Interfaces\bin\Debug\netcoreapp2.1\win7-x64\productActorService.Interfaces.deps.json
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\productActorApp\productActorService.Interfaces\bin\Debug\netcoreapp2.1\win7-x64\productActorService.Interfaces.dll
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\productActorApp\productActorService.Interfaces\bin\Debug\netcoreapp2.1\win7-x64\productActorService.Interfaces.pdb
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\productActorApp\productActorService.Interfaces\bin\Debug\netcoreapp2.1\win7-x64\contracts.dll
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\productActorApp\productActorService.Interfaces\bin\Debug\netcoreapp2.1\win7-x64\contracts.pdb
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\productActorApp\productActorService.Interfaces\obj\Debug\netcoreapp2.1\win7-x64\productActorService.Interfaces.csprojAssemblyReference.cache
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\productActorApp\productActorService.Interfaces\obj\Debug\netcoreapp2.1\win7-x64\productActorService.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\productActorApp\productActorService.Interfaces\obj\Debug\netcoreapp2.1\win7-x64\productActorService.Interfaces.AssemblyInfoInputs.cache
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\productActorApp\productActorService.Interfaces\obj\Debug\netcoreapp2.1\win7-x64\productActorService.Interfaces.AssemblyInfo.cs
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\productActorApp\productActorService.Interfaces\obj\Debug\netcoreapp2.1\win7-x64\productActorService.Interfaces.csproj.CopyComplete
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\productActorApp\productActorService.Interfaces\obj\Debug\netcoreapp2.1\win7-x64\productActorService.Interfaces.dll
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\productActorApp\productActorService.Interfaces\obj\Debug\netcoreapp2.1\win7-x64\productActorService.Interfaces.pdb
