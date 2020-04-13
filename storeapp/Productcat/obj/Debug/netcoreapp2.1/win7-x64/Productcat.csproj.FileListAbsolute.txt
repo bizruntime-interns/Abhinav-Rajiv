@@ -1,0 +1,17 @@
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\Productcat\obj\Debug\netcoreapp2.1\win7-x64\Productcat.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\Productcat\obj\Debug\netcoreapp2.1\win7-x64\Productcat.AssemblyInfoInputs.cache
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\Productcat\obj\Debug\netcoreapp2.1\win7-x64\Productcat.AssemblyInfo.cs
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\Productcat\bin\Debug\netcoreapp2.1\win7-x64\hostpolicy.dll
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\Productcat\bin\Debug\netcoreapp2.1\win7-x64\hostfxr.dll
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\Productcat\bin\Debug\netcoreapp2.1\win7-x64\Productcat.exe
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\Productcat\bin\Debug\netcoreapp2.1\win7-x64\Productcat.deps.json
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\Productcat\bin\Debug\netcoreapp2.1\win7-x64\Productcat.runtimeconfig.json
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\Productcat\bin\Debug\netcoreapp2.1\win7-x64\Productcat.runtimeconfig.dev.json
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\Productcat\bin\Debug\netcoreapp2.1\win7-x64\Productcat.dll
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\Productcat\bin\Debug\netcoreapp2.1\win7-x64\Productcat.pdb
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\Productcat\obj\Debug\netcoreapp2.1\win7-x64\Productcat.csprojAssemblyReference.cache
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\Productcat\obj\Debug\netcoreapp2.1\win7-x64\Productcat.dll
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\Productcat\obj\Debug\netcoreapp2.1\win7-x64\Productcat.pdb
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\Productcat\bin\Debug\netcoreapp2.1\win7-x64\communication.dll
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\Productcat\bin\Debug\netcoreapp2.1\win7-x64\communication.pdb
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\Productcat\obj\Debug\netcoreapp2.1\win7-x64\Productcat.csproj.CopyComplete

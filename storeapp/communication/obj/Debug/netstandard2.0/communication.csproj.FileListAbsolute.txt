@@ -1,0 +1,9 @@
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\communication\bin\Debug\netstandard2.0\communication.deps.json
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\communication\bin\Debug\netstandard2.0\communication.dll
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\communication\obj\Debug\netstandard2.0\communication.csprojAssemblyReference.cache
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\communication\obj\Debug\netstandard2.0\communication.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\communication\obj\Debug\netstandard2.0\communication.AssemblyInfoInputs.cache
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\communication\obj\Debug\netstandard2.0\communication.AssemblyInfo.cs
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\communication\bin\Debug\netstandard2.0\communication.pdb
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\communication\obj\Debug\netstandard2.0\communication.dll
+C:\Users\abhinav\Desktop\personal\personal\personal\service fabric\sateless\storeapp\communication\obj\Debug\netstandard2.0\communication.pdb
