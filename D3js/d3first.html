@@ -1,0 +1,268 @@
+<html>
+
+<head>
+    <title>
+        d3jsfirst
+    </title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+
+</head>
+
+<body>
+    <!-- <ul id="list">
+
+    </ul>
+    <div id="svgcontainer">
+        <svg width="300" height="300">
+            <line x1="100" y1="100" x2="200" y2="200" style="stroke:rgb(255,0,0);
+              stroke-width:2" />
+        </svg>
+    </div> -->
+    <script>
+        var dataarr = [30, 40, 60, 30, 80, 90, 100, 10, 5, 20, 30];
+
+        var widthscale = d3.scaleLinear()
+            .domain([0, 100])
+            .range([0, 600]);
+
+        var widthscforaxis = d3.scaleLinear()
+            .domain([0, 100])
+            .range([600, 0]);
+
+        var axis = d3.axisLeft()
+            .scale(widthscforaxis);
+
+        d3.json("data.json", function (data) {
+            var axisname = d3.scaleLinear().range([function (d) { return d.name; }]);
+            var yaxis = d3.axisBottom().scale(axisname);
+
+
+        })
+
+        var color = d3.scaleLinear()
+            .domain([0, 100])
+            .range(["red", "blue"]);
+
+        // d3.select("#list").selectAll("li")
+        //     .data([10, 20, 30, 40, 50])
+        //     .text(function (d) { return "this is data " + d; })
+        //     .enter()
+        //     .append("li")
+        //     .text(function (d) { return "dynamic data" + d; });
+
+        // var canvas = d3.select("body")
+        //     .append("svg")
+        //     .attr("width", 600)
+        //     .attr("height", 600);
+
+        // var circle = canvas.append("circle")
+        //     .attr("cx", 250)
+        //     .attr("cy", 250)
+        //     .attr("r", 50)
+        //     .attr("fill", "red");
+
+
+
+        // var rect = canvas.append("rect")
+        //     .attr("width", 100)
+        //     .attr("height", 50);
+
+
+        d3.json("data.json", function (data) {
+
+            var canvas2 = d3.select("body")
+                .append("svg")
+                .attr("width", 606)
+                .attr("height", 600)
+                .append("g")
+                .attr("transform", "translate(20,0)");
+
+            var len = data.length;
+
+            var bars = canvas2.selectAll("rect")
+                .data(data)
+                .enter()
+                .append("rect")
+                .attr("width", 30)
+                .attr("x", function (d, i) { return i * 33; })
+                .attr("fill", function (d) { return color(d.salary); })
+                .attr("transform", function (d, i) { return "translate(" + 36 * len + ",600) rotate(180)"; })
+                .transition().duration(1500).delay(100)
+                .attr("height", function (d) { return widthscale(d.salary); });
+
+
+            canvas2.selectAll("text")
+                .data(data)
+                .enter()
+                .append("text")
+                .attr("padding", 30)
+                .attr("transform", "translate(10,20) ")
+                .attr('fill', "black")
+                .attr("x", function (d, i) { return i * 33; })
+                .text(function (d) { return d.name; });
+
+
+            bars.transition().duration(1500).delay(1000).attr();
+            canvas2.append("g").attr("transform", "translate(10,0) ").call(axis);
+
+
+        })
+
+
+        var canvas3 = d3.select("body")
+            .append("svg")
+            .attr("height", 500)
+            .attr("width", 500);
+
+        var pathdata = [
+            { x: 10, y: 100 },
+            { x: 40, y: 50 },
+            { x: 65, y: 100 },
+            { x: 55, y: 80 },
+            { x: 25, y: 80 }
+
+        ];
+
+        var group = canvas3.append("g")
+            .attr("transform", "translate(20,0)");
+
+        var line = d3.line()
+            .x(function (d) { return d.x; })
+            .y(function (d) { return d.y; });
+
+        group.selectAll("path")
+            .data([pathdata])
+            .enter()
+            .append("path")
+            .attr("fill", "none")
+            .attr("stroke", "#000")
+            .attr("stroke-width", 10)
+            .attr("d", line);
+
+
+        // arch 
+        var archcan = d3.select("body")
+            .append("svg").attr("width", 500).attr("height", 500);
+
+        var grouparch = archcan.append("g")
+            .attr("transform", "translate(150,190)");
+
+        var rad = 100;
+        var radian = Math.PI * 2;
+
+        var arch = d3.arc()
+            .innerRadius(rad)
+            .outerRadius(rad + 30)
+            .startAngle(0)
+            .endAngle(radian - 1);
+
+        grouparch.append("path")
+            .attr("d", arch);
+
+
+
+        // pie bar
+
+        var piecolor = d3.scaleLinear()
+            .domain([0, 100])
+            .range(["red", "blue"]);
+
+        piedata = [10, 30, 70, 60];
+        var archpie = d3.select("body")
+            .append("svg").attr("width", 500).attr("height", 500);
+
+        piegroup = archpie.append("g")
+            .attr("transform", "translate(190,190)");
+
+        var piearc = d3.arc()
+            .innerRadius(100)
+            .outerRadius(150)
+            .cornerRadius(14);
+
+        var pie = d3.pie()(piedata);
+
+        var piearch = piegroup.selectAll("path")
+            .data(pie)
+            .enter()
+            .append("path")
+            .style('fill', function (d) { return piecolor(d.value) })
+            .attr("d", piearc);
+
+        piearch.append("text")
+            .attr("transform", function (d) { return "translate(" + piearc.centroid(d) + ")"; })
+            .attr("font-size", "1.5")
+            .attr("transform", "translate(100,200) ")
+            .text(function (d) { return d.data; });
+
+
+
+        // tree
+
+
+        // var digonal = d3.svg.diagonal()
+        // .source({x:10,y:10})
+        // .target({x:300,y:300});
+
+        // canvastree.append("path")
+        // .attr("fill","none")
+        // .attr("stroke","black")
+        // .attr("d",digonal);
+
+        var canvastree = d3.select("body")
+            .append("svg").attr("width", 500)
+            .attr("height", 500)
+            .append("g")
+            .attr("transform", "translate(50,50)");
+
+        var tree = d3.tree()
+            .size([400, 400]);
+
+        d3.json("childdata.json", function (data) {
+
+            const treeRoot = d3.hierarchy(data)
+            tree(treeRoot)
+            // nodes
+            const nodes = treeRoot.descendants()
+            // links
+            const links = treeRoot.links()
+
+            // var nodes = d3.hierarchy(data);
+            // var links = tree.links(nodes);
+
+            var node = canvastree.selectAll(".node")
+                .data(nodes)
+                .enter()
+                .append("g")
+                .attr("class", "node")
+                .attr("transform", function(d){ return "transalate(" + d.x+","+d.y+ ")"; });
+
+            node.append("circle")
+                .attr("r", 5)
+                .attr("fill", "blue");
+
+            node.append("text")
+                .text(function (d) { return d.name; });
+
+            // var diagonal = d3.diagonal();
+
+            // canvastree.selectAll(".links")
+            //     .data(links)
+            //     .enter()
+            //     .append("path")
+            //     .attr("class", "links")
+            //     .attr("fill", "none")
+            //     .attr("stroke", "#ADADAD")
+            //     .attr("d", diagonal);
+
+        })
+
+
+
+    </script>
+    <br>
+
+</body>
+
+</html>
+<!--   -->
