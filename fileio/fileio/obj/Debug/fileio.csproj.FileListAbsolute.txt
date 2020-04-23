@@ -1,0 +1,7 @@
+C:\Users\abhinav\Desktop\personal\personal\personal\fileio\fileio\bin\Debug\fileio.exe.config
+C:\Users\abhinav\Desktop\personal\personal\personal\fileio\fileio\bin\Debug\fileio.exe
+C:\Users\abhinav\Desktop\personal\personal\personal\fileio\fileio\bin\Debug\fileio.pdb
+C:\Users\abhinav\Desktop\personal\personal\personal\fileio\fileio\obj\Debug\fileio.csprojAssemblyReference.cache
+C:\Users\abhinav\Desktop\personal\personal\personal\fileio\fileio\obj\Debug\fileio.csproj.CoreCompileInputs.cache
+C:\Users\abhinav\Desktop\personal\personal\personal\fileio\fileio\obj\Debug\fileio.exe
+C:\Users\abhinav\Desktop\personal\personal\personal\fileio\fileio\obj\Debug\fileio.pdb
