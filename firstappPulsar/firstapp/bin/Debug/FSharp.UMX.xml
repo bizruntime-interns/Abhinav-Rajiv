@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>FSharp.UMX</name></assembly>
+<members>
+<member name="M:FSharp.UMX.Operators.op_Splice``2(``0)">
+<summary>
+ Infix operator used for tagging, untagging, or casting units of measure
+</summary>
+</member>
+</members>
+</doc>

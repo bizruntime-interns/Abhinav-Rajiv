@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>Pulsar.Client</name></assembly>
+<members>
+<member name="M:Pulsar.Client.Common.MessageBuilder.#ctor(System.Byte[],System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.String},System.Nullable{System.Int64})">
+ <summary>
+     Constructs <see cref="Pulsar.Client.Common.MessageBuilder" />
+ </summary>
+ <param name="value">Message data serialized to array of bytes.</param>
+ <param name="properties">The readonly dictionary with message properties.</param>
+ <param name="deliverAt">Unix timestamp in milliseconds after which message should be delivered to consumer(s).</param>
+ <remarks>
+     This <paramref name="deliverAt" /> timestamp must be expressed as unix time milliseconds based on UTC.
+     For example: <code>DateTimeOffset.UtcNow.AddSeconds(2.0).ToUnixTimeMilliseconds()</code>.
+ </remarks>
+</member>
+<member name="T:Pulsar.Client.Common.MessageBuilder">
+ <summary>
+     Message builder that constructs a message to be published through a producer.
+ </summary>
+</member>
+<member name="M:Pulsar.Client.Internal.AcknowledgmentsGroupingTracker.Pulsar-Client-Internal-IAcknowledgmentsGroupingTracker-IsDuplicate(Pulsar.Client.Common.MessageId)">
+<summary>
+ Since the ack are delayed, we need to do some best-effort duplicate check to discard messages that are being
+ resent after a disconnection and for which the user has already sent an acknowledgement.
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.BatchReceivePolicy.#ctor">
+<summary>
+ Default policy: -1 messages, 10 Mb, 100 ms (negative means no limit)
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.Authentication.GetAuthMethodName">
+<summary>
+ Return the identifier for this authentication method
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.Authentication.GetAuthData(System.String)">
+<summary>
+ Get/Create an authentication data provider which provides the data that this client will be sent to the broker.
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.Authentication.GetAuthData">
+<summary>
+ Return The authentication data identifying this client that will be sent to the broker
+</summary>
+</member>
+<member name="P:Pulsar.Client.Api.IConsumer.Topic">
+<summary>
+ Get a topic for the consumer
+</summary>
+</member>
+<member name="P:Pulsar.Client.Api.IConsumer.HasReachedEndOfTopic">
+<summary>
+ Return true if the topic was terminated and this consumer has already consumed all the messages in the topic.
+</summary>
+</member>
+<member name="P:Pulsar.Client.Api.IConsumer.ConsumerId">
+<summary>
+ Internal client consumer id
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.IConsumer.UnsubscribeAsync">
+<summary>
+ Unsubscribes consumer
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.IConsumer.SeekAsync(System.UInt64)">
+<summary>
+ Reset the subscription associated with this consumer to a specific message publish time (unix timestamp).
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.IConsumer.SeekAsync(Pulsar.Client.Common.MessageId)">
+<summary>
+ Reset the subscription associated with this consumer to a specific message id.
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.IConsumer.RedeliverUnacknowledgedMessagesAsync">
+<summary>
+ Redelivers all the unacknowledged messages
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.IConsumer.ReceiveAsync">
+<summary>
+ Receive a single message, wait asynchronously if no message is ready.
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.IConsumer.NegativeAcknowledge(Pulsar.Client.Common.Messages)">
+<summary>
+ Acknowledge the failure to process Messages
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.IConsumer.NegativeAcknowledge(Pulsar.Client.Common.MessageId)">
+<summary>
+ Acknowledge the failure to process a single message.
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.IConsumer.GetLastMessageIdAsync">
+<summary>
+ Get the last message id available available for consume.
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.IConsumer.CloseAsync">
+<summary>
+ Clean up resources
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.IConsumer.BatchReceiveAsync">
+<summary>
+ Retrieves messages when has enough messages or wait timeout and completes with received messages.
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.IConsumer.AcknowledgeCumulativeAsync(Pulsar.Client.Common.MessageId)">
+<summary>
+ Acknowledge the reception of all the messages in the stream up to (and including) the provided message.
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.IConsumer.AcknowledgeAsync(Pulsar.Client.Common.Messages)">
+<summary>
+ Asynchronously acknowledge the consumption of Messages
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.IConsumer.AcknowledgeAsync(Pulsar.Client.Common.MessageId)">
+<summary>
+ Asynchronously acknowledge the consumption of a single message
+</summary>
+</member>
+<member name="P:Pulsar.Client.Api.IProducer.Topic">
+<summary>
+ Get the topic which producer is publishing to
+</summary>
+</member>
+<member name="P:Pulsar.Client.Api.IProducer.ProducerId">
+<summary>
+ Internal client producer id
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.IProducer.SendAsync(Pulsar.Client.Common.MessageBuilder)">
+<summary>
+ Send message with keys and props
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.IProducer.SendAsync(System.Byte[])">
+<summary>
+ Send message and await confirmation from broker
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.IProducer.SendAndForgetAsync(Pulsar.Client.Common.MessageBuilder)">
+<summary>
+ Complete as soon as message gets in client&apos;s internal message queue, don&apos;t wait for any confirmations
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.IProducer.SendAndForgetAsync(System.Byte[])">
+<summary>
+ Complete as soon as message gets in client&apos;s internal message queue, don&apos;t wait for any confirmations
+</summary>
+</member>
+<member name="M:Pulsar.Client.Api.IProducer.CloseAsync">
+<summary>
+ Clean up resources
+</summary>
+</member>
+</members>
+</doc>
